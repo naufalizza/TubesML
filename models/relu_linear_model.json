@@ -18,12 +18,12 @@
             "activation_function":"sigmoid",
             "neurons":[
                 {
-                    "bias":-10,
-                    "weights":[20,20]
+                    "bias":0,
+                    "weights":[1,1]
                 },
                 {
-                    "bias":30,
-                    "weights":[-20,-20]
+                    "bias":-1,
+                    "weights":[1,1]
                 }
             ]
         },
@@ -31,8 +31,8 @@
             "activation_function":"sigmoid",
             "neurons":[
                 {
-                    "bias":-30,
-                    "weights":[20,20]
+                    "bias":0,
+                    "weights":[1,-2]
                 }
             ]
         }
