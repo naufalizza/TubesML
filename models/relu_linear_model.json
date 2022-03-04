@@ -15,7 +15,7 @@
             ]
         },
         {
-            "activation_function":"sigmoid",
+            "activation_function":"relu",
             "neurons":[
                 {
                     "bias":0,
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "activation_function":"sigmoid",
+            "activation_function":"linear",
             "neurons":[
                 {
                     "bias":0,
