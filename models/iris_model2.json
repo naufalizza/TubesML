@@ -1,5 +1,5 @@
 {
-    "dimension": [4,4,3,3],
+    "dimension": [4,6,4,2,1],
     "layers":[
         {
             "activation_function":null,
@@ -40,40 +40,57 @@
                 {
                     "bias":30.0,
                     "weights":[-20.0,-20.0,-20.0,-20.0]
+                },
+                {
+                    "bias":30.0,
+                    "weights":[-20.0,-20.0,-20.0,-20.0]
+                },
+                {
+                    "bias":30.0,
+                    "weights":[-20.0,-20.0,-20.0,-20.0]
                 }
             ]
         },
                 {
-            "activation_function":"relu",
+            "activation_function":"sigmoid",
             "neurons":[
                 {
                     "bias":-10.0,
-                    "weights":[20.0,20.0,20.0,20.0]
+                    "weights":[20.0,20.0,20.0,20.0,20.0,20.0]
                 },
                 {
-                    "bias":30.0,
-                    "weights":[-20.0,-20.0,-20.0,-20.0]
+                    "bias":-10.0,
+                    "weights":[20.0,20.0,20.0,20.0,20.0,20.0]
                 },
                 {
-                    "bias":30.0,
-                    "weights":[-20.0,-20.0,-20.0,-20.0]
+                    "bias":-10.0,
+                    "weights":[20.0,20.0,20.0,20.0,20.0,20.0]
+                },
+                {
+                    "bias":-10.0,
+                    "weights":[20.0,20.0,20.0,20.0,20.0,20.0]
                 }
             ]
         },
         {
-            "activation_function":"softmax",
+            "activation_function":"relu",
             "neurons":[
                 {
                     "bias":-30.0,
-                    "weights":[20.0,20.0,20.0]
+                    "weights":[20.0,20.0,20.0,20.0]
                 },
                 {
                     "bias":-30.0,
-                    "weights":[20.0,20.0,20.0]
-                },
+                    "weights":[20.0,20.0,20.0,20.0]
+                }
+            ]
+        },
+        {
+            "activation_function":"sigmoid",
+            "neurons":[
                 {
                     "bias":-30.0,
-                    "weights":[20.0,20.0,20.0]
+                    "weights":[20.0,20.0]
                 }
             ]
         }
