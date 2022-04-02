@@ -15,24 +15,24 @@
             ]
         },
         {
-            "activation_function":"sigmoid",
+            "activation_function":"relu",
             "neurons":[
                 {
-                    "bias":-10.0,
-                    "weights":[20.0,20.0]
+                    "bias":0.0,
+                    "weights":[1.0,1.0]
                 },
                 {
-                    "bias":30.0,
-                    "weights":[-20.0,-20.0]
+                    "bias":-1.0,
+                    "weights":[1.0,1.0]
                 }
             ]
         },
         {
-            "activation_function":"sigmoid",
+            "activation_function":"linear",
             "neurons":[
                 {
-                    "bias":-30.0,
-                    "weights":[20.0,20.0]
+                    "bias":0.0,
+                    "weights":[1.0,-2.0]
                 }
             ]
         }
